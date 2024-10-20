@@ -15,8 +15,8 @@ class SparceTable{
     public:
 
         SparceTable::SparceTable(int n_){
-            n = n_
-            lista.resize(n_)
+            n = n_ ;
+            lista.resize(n_) ;
         }
 
         void SparceTable::insert(int indice, T val){
