@@ -15,6 +15,7 @@ class SQRT{
         vector<vector<T>> blocos ;
     
     public:
+
         SQRT(int);
         void update(T&, T);
         void view_data();

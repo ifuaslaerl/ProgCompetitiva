@@ -15,6 +15,7 @@ class SegTree{
         vector<vector<T>> blocos ;
     
     public:
+
         SegTree(int);
         void update(T&, T);
         void view_data();

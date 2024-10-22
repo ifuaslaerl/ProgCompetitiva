@@ -9,7 +9,7 @@ class SegTree{
 
         const T initializer ;
         int n ; 
-        vector<T> lista, segtree ;
+        vector<T> lista, segtree, seglazy ;
     
     public:
         
@@ -44,8 +44,8 @@ class SegTree{
             lista[index] = value ;
         }
         
-        void SegTree::lazy_update(int, int, T){
-
+        void SegTree::lazy_update(int l, int r, T value){
+            
         }
         
         T SegTree::lazy_query(int){

@@ -3,7 +3,7 @@ using namespace std;
 
 typedef long long ll ;
 
-// g++ -Dlocal main.cpp local -o main
+// g++ -Dlocal main.cpp -o main
 
 #ifdef local
     #include "debug.h"
@@ -19,7 +19,7 @@ typedef long long ll ;
 const ll BigINF = 2*(1e18) ;
 const int INF = 2*(1e9) ;
 
-signed main(){
+int main(){
     fastio ;
 
     return 0;
